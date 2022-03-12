@@ -140,24 +140,20 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
      * All two of these values are immutable: they can only be set once during
      * construction.
      */
-    constructor(string memory name_, string memory symbol_) {
+    //string memory name_, string memory symbol_
+    constructor() {
         _name = "NEW TOKEN ON BLOCKCHAIN CLASS v1";
         _symbol = "NTO";
 
         _mint(msg.sender, 1000000000000000000000000);
     }
 
-    /**
-     * @dev Returns the name of the token.
-     */
+    // Returns the name of the token.
     function name() public view virtual override returns (string memory) {
         return _name;
     }
 
-    /**
-     * @dev Returns the symbol of the token, usually a shorter version of the
-     * name.
-     */
+    // Returns the symbol of the token, usually a shorter version of the name
     function symbol() public view virtual override returns (string memory) {
         return _symbol;
     }
@@ -179,16 +175,12 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         return 18;
     }
 
-    /**
-     * @dev See {IERC20-totalSupply}.
-     */
+    // See {IERC20-totalSupply}
     function totalSupply() public view virtual override returns (uint256) {
         return _totalSupply;
     }
 
-    /**
-     * @dev See {IERC20-balanceOf}.
-     */
+    // See {IERC20-balanceOf}
     function balanceOf(address account) public view virtual override returns (uint256) {
         return _balances[account];
     }
@@ -206,9 +198,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         return true;
     }
 
-    /**
-     * @dev See {IERC20-allowance}.
-     */
+    // See {IERC20-allowance}
     function allowance(address owner, address spender) public view virtual override returns (uint256) {
         return _allowances[owner][spender];
     }

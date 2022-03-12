@@ -1,0 +1,26 @@
+{
+  "name": "blockchain-token-distribution",
+  "version": "1.0.0",
+  "description": "To manage token distribution",
+  "main": "contract.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeisseRocha/blockchain-token-distribution.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeisseRocha/blockchain-token-distribution.git"
+  },
+  "homepage": "https://github.com/JeisseRocha/blockchain-token-distribution.git#readme",
+  "dependencies": {
+    "bip39": "^3.0.4",
+    "dotenv": "^16.0.0",
+    "ethereumjs-wallet": "^1.0.2",
+    "keccak256": "^1.0.6",
+    "web3": "^1.7.1"
+  }
+}
