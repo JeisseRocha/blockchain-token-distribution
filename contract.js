@@ -10,7 +10,7 @@ privateKey = Buffer.from(process.env.SUPER_SECRET_PRIVATE_KEY, 'hex');
 
 
 const rpcURL = "https://ropsten.infura.io/v3/" + infuraToken
-console.log(`infura URL: ${rpcURL}`);
+console.log(`Infura URL: ${rpcURL}`);
 
 const web3 = new Web3(rpcURL);
 console.log("Connected to web3");
@@ -84,12 +84,12 @@ const transferToken = async(fromAddress, toAddress, amount) => {
 }
 
  const getAllContractInfo = async() => {
-    getName();
-    getSymbol();
-    getDecimals();
-    getTotalSupply();
-//     getBalance(ownerAddress);
-//     transferToken(ownerAddress, '0x5ef5090b5701CE6E36939eddE4bD4D30966f2604', 23000);
+    // getName();
+    // getSymbol();
+    // getDecimals();
+    // getTotalSupply();
+    // getBalance(ownerAddress);
+    // transferToken(ownerAddress, '0x5ef5090b5701CE6E36939eddE4bD4D30966f2604', 23000);
 }
 
 getAllContractInfo()
