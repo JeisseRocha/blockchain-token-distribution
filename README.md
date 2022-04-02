@@ -29,7 +29,7 @@ CONTRACT_ADDRESS=
 OWNER_ADDRESS=
 SUPER_SECRET_PRIVATE_KEY=
 ```
-s
+
 ## Run Blockchain Token Distribution ##
 
 To run a deterministic wallet:
@@ -68,4 +68,5 @@ build an image
 ``` $docker build -t nci/erc20 . ```
 
 run 
+
 ``` $docker run --name erc20 nci/erc20 ```
