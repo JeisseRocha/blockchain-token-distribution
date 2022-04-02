@@ -30,7 +30,18 @@ OWNER_ADDRESS=
 SUPER_SECRET_PRIVATE_KEY=
 ```
 
-## Run Blockchain Token Distribution ##
+
+### Easy way to run this application: use Docker Compose ###
+
+to run a docker-compose instance:
+
+```$docker-compose up```
+
+
+___________________________________________________________
+
+
+### More detailed way to run this application ###
 
 To run a deterministic wallet:
 
