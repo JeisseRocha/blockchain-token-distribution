@@ -18,7 +18,18 @@ Assignment Output:
     * Docker Hub URL
     * Report
 
+## Environment variables ##
 
+You will need a .env file to hold some important keys.
+On the main folder create a file called '.env' and put the following info:
+
+```
+INFURA_TOKEN=
+CONTRACT_ADDRESS=
+OWNER_ADDRESS=
+SUPER_SECRET_PRIVATE_KEY=
+```
+s
 ## Run Blockchain Token Distribution ##
 
 To run a deterministic wallet:
@@ -50,8 +61,11 @@ check what images I have built
 
 remove all docker images/networks etc.
 
-```docker system prune -a -f```
+``` $docker system prune -a -f ```
 
 build an image
 
-```$ docker build -t nci/erc20 .```
+``` $docker build -t nci/erc20 . ```
+
+run 
+``` $docker run --name erc20 nci/erc20 ```
