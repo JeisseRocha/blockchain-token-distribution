@@ -2,7 +2,7 @@
 Blockchain project to issue an Ethereum ERC20 token on an Ethereum testnet and provide a code-based mechanism to perform basic token distributions.
 
 
-## Environment variables ##
+### Environment variables ###
 
 You will need a .env file to hold some important keys.
 On the main folder create a file called '.env' and put the following info:
@@ -14,7 +14,7 @@ OWNER_ADDRESS=
 SUPER_SECRET_PRIVATE_KEY=
 ```
 
-### Easy way to run this application: use Docker Compose ###
+## Easy way to run this application: use Docker Compose ##
 
 to run a docker-compose instance:
 
@@ -30,7 +30,7 @@ To run a deterministic wallet:
 
 ```$node crypto/wallet.js```
 
-# Sorting out dependencies #
+### Sorting out dependencies ###
 
 To manage dependencies we are using npm, so to install all dependencies run:
 
