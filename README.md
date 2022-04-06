@@ -1,5 +1,7 @@
 # blockchain-token-distribution
+
 Blockchain project to issue an Ethereum ERC20 token on an Ethereum testnet and provide a code-based mechanism to perform basic token distributions.
+
 
 
 ### Environment variables ###
@@ -14,14 +16,22 @@ OWNER_ADDRESS=
 SUPER_SECRET_PRIVATE_KEY=
 ```
 
+
+
 ## Easy way to run this application: use Docker Compose ##
+
 
 to run a docker-compose instance:
 
 ```$docker-compose up```
 
 
+
+
 ___________________________________________________________
+
+
+
 
 
 ## More detailed way to run this application ##
@@ -30,11 +40,14 @@ To run a deterministic wallet:
 
 ```$node crypto/wallet.js```
 
+
+
 ### Sorting out dependencies ###
 
 To manage dependencies we are using npm, so to install all dependencies run:
 
 ```$npm install```
+
 
 
 ### Docker Commands ###
