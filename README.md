@@ -2,22 +2,6 @@
 Blockchain project to issue an Ethereum ERC20 token on an Ethereum testnet and provide a code-based mechanism to perform basic token distributions.
 
 
-Requirements
-
-    1. Create an Ethereum account and MetaMask wallet
-    2. Create an ERC20-compliant, fixed-supply token
-    3. Deploy the token contract to the Ethereum Test Net Network
-    4. Build a Node.js application to distribute Tokens
-
-Assignment Output:
-
-    * Nanipulation of an Ethereum account and MetaMask wallet. 
-    * Ethereum Test Net ETH Address
-    * Node.JS application
-    * Docker File containing application
-    * Docker Hub URL
-    * Report
-
 ## Environment variables ##
 
 You will need a .env file to hold some important keys.
@@ -30,7 +14,6 @@ OWNER_ADDRESS=
 SUPER_SECRET_PRIVATE_KEY=
 ```
 
-
 ### Easy way to run this application: use Docker Compose ###
 
 to run a docker-compose instance:
@@ -41,21 +24,15 @@ to run a docker-compose instance:
 ___________________________________________________________
 
 
-### More detailed way to run this application ###
+## More detailed way to run this application ##
 
 To run a deterministic wallet:
 
 ```$node crypto/wallet.js```
 
-## Sorting out dependencies ##
+# Sorting out dependencies #
 
-when we use a dependency, we have to npm install it
-
-but we can make this simpler by using a package.json file
-
-which remembers the deps.
-
-then, we can install all deps by running:
+To manage dependencies we are using npm, so to install all dependencies run:
 
 ```$npm install```
 
